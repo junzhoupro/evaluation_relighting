@@ -1,0 +1,13 @@
+category,task,metric,n_total_samples,n_evaluable_samples,n_correct,winner_accuracy,n_human_ties_or_metric_ties
+necklace,aesthetic,masked_lpips,144,138,47,0.34057971014492755,6
+necklace,identity,masked_lpips,144,142,61,0.4295774647887324,2
+ring,aesthetic,masked_lpips,192,187,44,0.23529411764705882,5
+ring,identity,masked_lpips,192,190,109,0.5736842105263158,2
+necklace,aesthetic,masked_ssim,144,138,41,0.2971014492753623,6
+necklace,identity,masked_ssim,144,142,50,0.352112676056338,2
+ring,aesthetic,masked_ssim,192,187,57,0.3048128342245989,5
+ring,identity,masked_ssim,192,190,75,0.39473684210526316,2
+necklace,aesthetic,masked_psnr,144,138,29,0.21014492753623187,6
+necklace,identity,masked_psnr,144,142,59,0.4154929577464789,2
+ring,aesthetic,masked_psnr,192,187,3,0.016042780748663103,5
+ring,identity,masked_psnr,192,190,161,0.8473684210526315,2

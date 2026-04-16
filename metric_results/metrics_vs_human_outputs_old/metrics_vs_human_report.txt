@@ -1,0 +1,31 @@
+Metrics vs. Human Judgment Summary
+================================
+Spearman correlation with human vote share
+-----------------------------------------
+masked_lpips | necklace | aesthetic: rho=0.0874 | p=0.06941 | n=432
+masked_lpips | necklace | identity: rho=0.0740 | p=0.1244 | n=432
+masked_lpips | ring | aesthetic: rho=0.0133 | p=0.7503 | n=576
+masked_lpips | ring | identity: rho=0.1704 | p=3.959e-05 | n=576
+masked_psnr | necklace | aesthetic: rho=-0.2056 | p=1.657e-05 | n=432
+masked_psnr | necklace | identity: rho=0.1367 | p=0.00442 | n=432
+masked_psnr | ring | aesthetic: rho=-0.5113 | p=1.077e-39 | n=576
+masked_psnr | ring | identity: rho=0.6138 | p=6.148e-61 | n=576
+masked_ssim | necklace | aesthetic: rho=-0.0156 | p=0.7466 | n=432
+masked_ssim | necklace | identity: rho=0.1171 | p=0.01488 | n=432
+masked_ssim | ring | aesthetic: rho=-0.0506 | p=0.2253 | n=576
+masked_ssim | ring | identity: rho=0.1770 | p=1.937e-05 | n=576
+
+Winner prediction accuracy
+--------------------------
+masked_lpips | necklace | aesthetic: acc=0.3406 | correct=47/138 | ties_skipped=6
+masked_lpips | necklace | identity: acc=0.4296 | correct=61/142 | ties_skipped=2
+masked_lpips | ring | aesthetic: acc=0.2353 | correct=44/187 | ties_skipped=5
+masked_lpips | ring | identity: acc=0.5737 | correct=109/190 | ties_skipped=2
+masked_psnr | necklace | aesthetic: acc=0.2101 | correct=29/138 | ties_skipped=6
+masked_psnr | necklace | identity: acc=0.4155 | correct=59/142 | ties_skipped=2
+masked_psnr | ring | aesthetic: acc=0.0160 | correct=3/187 | ties_skipped=5
+masked_psnr | ring | identity: acc=0.8474 | correct=161/190 | ties_skipped=2
+masked_ssim | necklace | aesthetic: acc=0.2971 | correct=41/138 | ties_skipped=6
+masked_ssim | necklace | identity: acc=0.3521 | correct=50/142 | ties_skipped=2
+masked_ssim | ring | aesthetic: acc=0.3048 | correct=57/187 | ties_skipped=5
+masked_ssim | ring | identity: acc=0.3947 | correct=75/190 | ties_skipped=2
